@@ -1,4 +1,5 @@
-FROM ubuntu-bastelbase
+#FROM ubuntu-bastelbase
+FROM rwd1/ubuntu-bastelbase
 
 
 RUN apt-get update && apt-get upgrade -y && \
